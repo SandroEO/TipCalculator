@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <h1><strong>TIP CALCULATOR</strong></h1>
+    <div class="calculator">
+        <form id="amount">
+            <p>Bill amount:</p>
+            £ <input id="bill" type="text" placeholder="Total Bill">
+            <br>
+            <p>How was your service?<p>
+            <select id="service">
+            <option disabled selected>-- Tip --</option>
+            <option value="0.2">20% - You need a payrise!</option>
+            <option value="0.15">15% - Great service!</option>
+            <option value="0.10">10% - Good</option>
+            <option value="0.05">5% - Maybe next time</option>
+            <option value="0.00">0% - Never again</option>
+        </select>
+        <p>Number of people:</p>
+        <input id="people" type="text" placeholder="Number of people"> people
+        <br>
+        <button type="button" id="calculate">Calculate!</button>
+        </form>
+        <br>
+        <p id="total">Total tip (per person): <br>£<span id="totalTip">0</span>
+    
+    </div>
+    </div>
+    <script src="index.js"></script>    
+</body>
+</html>

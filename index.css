@@ -1,0 +1,32 @@
+body {
+    background-color: #00BFFF !important;
+    font-size: 30px !important;
+    font-family: 'Epilogue', sans-serif !important;
+}
+
+.container {
+    width: 100%;
+    padding-right: 225px !important;
+    padding-left: 225px !important;
+    margin-right: auto;
+    margin-left: 110px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px !important;
+    color: #F8F8FF;
+}
+
+.calculator {
+    background-color: #F8F8FF;
+    border: 2px solid black;
+    border-radius: 5%;
+    text-align: center !important;
+    margin-top: 0px;
+}
+
+.bill {
+    margin-left: 10px;
+} 
