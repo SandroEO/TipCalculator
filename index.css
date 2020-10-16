@@ -26,6 +26,20 @@ h1 {
     text-align: center !important;
     margin-top: 0px;
 }
+@media screen and (max-width: 450px){
+    .calculator {
+    width: 500px;
+    height: 550px;
+    margin: 0px -226px;
+    }
+}
+@media (min-width: 450px) and (max-width: 850px){
+    .calculator {
+    width: 500px;
+    height: 550px;
+    margin: 0px -110px;
+    }
+}
 
 .bill {
     margin-left: 10px;
